@@ -69,35 +69,35 @@ h1 {
 	font-size: 24px;
 	font-weight: normal;
 	font-style: normal;
-	color: #664600;
+	color: #033D7B;
 }
 h2 {
 	font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 	font-style: normal;
-	color: #664600;
+	color: #033D7B;
 }
 h3 {
 	font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	font-style: normal;
-	color: #664600;
+	color: #033D7B;
 }
 h4 {
 
-	color: #664600;
+	color: #033D7B;
 }
 h5 {
-	color: #664600;
+	color: #033D7B;
 }
 h6{
 	font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	font-style: normal;
-	color: 		#664600;
+	color: 		#033D7B;
 }
 
 p {
@@ -123,7 +123,7 @@ a:hover {
 
 .navbar-default {
     background-color: #111111;
-    border-color: #664600;
+    border-color: #033D7B;
 }
 
 .news-para {
