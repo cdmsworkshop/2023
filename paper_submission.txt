@@ -5,8 +5,8 @@ Template for Short Paper Submission for CDMS Workshop 2023
 
 - Abstract:
 
-- List of Authors (Please include Name, Affiliation and Email Address)
+- List of Authors (Please include Name, Affiliation and Email Address):
 
-- Primary Author for Contact
+- Primary Author for Contact:
 
-- Conflict of Interests with Program Committee Members (if any)
+- Conflict of Interests with Program Committee Members (if any):
