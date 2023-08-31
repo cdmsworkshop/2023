@@ -100,29 +100,37 @@
 				<h2>Workshop Date: 28th August 2023</h2>
 
 <hr>
-<h1>Invited Talks</h1>
+<h1>Presentations</h1>
 				<br>
-				<table id="invited1" border=0>
-					<tr>
-						<td width=30%><center><img src="images/EugeneKogan.jpg" width="60%"><center></td>
-						<td valign=top><b><font size="4%" color="#212F3C">Title: <i>Innovating with storage formats to push the limits in a hybrid database</i></font></b><br>
-							<b><font size="4%" color="#212F3C">Speaker: <i>Eugene Kogan, Software Architect, SingleStore</i></font></b><br><br>
-					<p align="justify"><font color="#2E4053" size="3%"><b>Speaker Bio:</b> Eugene's relatively short 22+ years in databases took him from Microsoft SQL Server to Google Spanner, Google BigQuery, Snowflake, and, finally, to a Software Architect role at SingleStore. His biggest interests in the RDBMS field have been semi-structured data processing, data replication, distributed query coordination and execution, and, lately, hybrid system architectures that include transactional, analytical and complex event processing in a single database. </font></p>
-					<p align="justify"><font color="#2E4053" size="3%"><b>Abstract:</b>  Data storage formats and also ways a query processor interacts with data structures in different storage tiers is one of the main design areas databases use to add value for customers and become more competitive. In this talk I'll explore SingleStore's proprietary storage formats and indexing techniques. I will also discuss how the data structures are used by the query processor, and illustrate that in many cases indexes and mixed column- and row-centric data representation do not lead to query planning complexity.  SingleStore's case is interesting because of the variety of requirements to data storage and access methods, relative maturity and continued investments. SingleStore is a distributed hybrid transactional and analytical database that efficiently supports queries with low, medium and high selectivity, as well as DML with small, sparse and bulk data updates. I'll discuss reasoning for prior design decisions, and report on new unpublished work.</font></p>
-					</td>
-					</tr>
-      </table>
-			<br><br>
-				<table id="invited2" border=0>
-					<tr>
-						<td width=30%><center><img src="images/PatrickDamme.jpg" width="60%"><center></td>
-						<td valign=top><b><font size="4%" color="#212F3C">Title: <i>Holistic Extensibility for Integrated Data Analysis Pipelines in DAPHNE</i></font></b><br>
-							<b><font size="4%" color="#212F3C">Speakers: <i>Patrick Damme, Postdoctoral Researcher, Technische Universität Berlin</i></font></b><br><br>
-					<p align="justify"><font color="#2E4053" size="3%"><b>Speaker Bio:</b> Patrick Damme is a postdoc researcher in the DAMS Lab research group at TU Berlin and the BIFOLD in Berlin, Germany. His research interests are centered around database systems, machine learning systems, and techniques for making complex analyses of large data volumes efficient, scalable, and simple. He is one of the main contributors to DAPHNE, an open and extensible system infrastructure for integrated data analysis pipelines, which he started working on in his previous occupation as a postdoc at Graz University of Technology and the co-located Know-Center in Graz, Austria. Patrick received his PhD in computer science from TU Dresden, Germany, where he was a part of the Dresden Database Systems Group.</font></p>
-					<p align="justify"><font color="#2E4053" size="3%"><b>Abstract:</b> Integrated data analysis (IDA) pipelines combining data management and query processing, machine learning, and high-performance computing become increasingly important in practice. Deploying IDA pipelines is cumbersome and quickly leads to overheads and hardware under-utilization due to the suboptimal integration of existing systems. At the same time, today’s hardware challenges lead to increasing specialization in terms of compute and storage devices as well as the data representation, which further complicates the deployment. To address these issues, in the DAPHNE project, we build an open and extensible system infrastructure for IDA pipelines, aiming for increased productivity and performance. End users define IDA pipelines in a domain-specific language offering a unified experience over relational and linear algebra, augmented by high-level data science primitives. Internally, an IDA pipeline runs through an optimizing compiler and is efficiently executed in local or distributed environments exploiting heterogeneous hardware and computational storage. Researchers may easily extend many aspects of DAPHNE including custom data representations, operator kernels, optimizer passes, and runtime schedulers to experiment with new specialized approaches in a full-fledged system. In this talk, I will give an overview of our ongoing work in DAPHNE and on its holistic extensibility in particular.</font></p>
-					</td>
-					</tr>
-      </table>
+				<h2>Keynote Talks</h2>
+				<ul>
+					<li><a href="Keynote1.pdf"><i>Horizons of Composability</i> by <i>Orri Erling, Software Engineer, Meta Inc.</i> </a></li>
+					<li><a href="Keynote2.pdf"><i>Unbundling of the DBMS stack</i> by <i>Mosha Pasumansky, CTO, Firebolt & Benjamin Wagner, Engineering Manager, Firebolt</i> </a></li>
+					<li><a href="Keynote3.pdf"><i>Hybrid Query Execution; What is a database client, anyway?</i> by <i>Jordan Tigani, Co-Founder & CEO, MotherDuck</i> </a></li>
+					<li><a href="Keynote4.pdf"><i>Taking Postgres into the 21st Century</i> by <i>Nikita Shamgunov, CEO, Neon Database</i> </a></li>
+				</ul>
+				<h2>Invited Talks</h2>
+				<ul>
+					<li><a href="InvitedTalk2.pdf"><i>Innovating with storage formats to push the limits in a hybrid database</i> by <i>Eugene Kogan, Software Architect, SingleStore</i> </a></li>
+					<li><a href="InvitedTalk1.pdf"><i>Holistic Extensibility for Integrated Data Analysis Pipelines in DAPHNE</i> by <i>Patrick Damme, Postdoctoral Researcher, Technische Universität Berlin</i> </a></li>
+				</ul>
+				<h2>Short Paper Presentations</h2>
+				<ul>
+					<li><a href="ShortPaper1.pdf"><i>Relation-Based In-Database Stream Processingy</i> by <i>Christian Winter (Technical University of Munich), Thomas Neumann (Technical University of Munich), Alfons Kemper (Technical University of Munich)</i> </a></li>
+					<li><a href="ShortPaper2.pdf"><i>Building a serverless Data Lakehouse from spare parts</i> by <i>Jacopo Tagliabue (NYU and Bauplan), Ciro Greco (Bauplan), Luca Bigon (Bauplan)</i> </a></li>
+					<li><a href="ShortPaper3.pdf"><i>The Gluten Open-Source Software project - modernizing Java-based query engines for the Lakehouse era</i> by <i>Akash Shankaran (Intel), George Gu (Intel), Weiting Chen (Intel), Binwei Yang (Intel), Chidamber Kulkarni (Intel), Mark Rambacher (Intel), Nesime Tatbul (Intel), David E. Cohen (Intel)</i> </a></li>
+					<li><a href="ShortPaper4.pdf"><i>E-Scan: Consuming Contextual Data with Model Plugins</i> by <i>Viktor Sanca (EPFL), Anastasia Ailamaki (EPFL & Google)</i> </a></li>
+					<li><a href="ShortPaper5.pdf"><i>Wisent: An In-Memory Serialization Format for Leafy Trees</i> by <i>Hubert Mohr-Daurat (Imperial College London), Holger Pirk (Imperial College London)</i> </a></li>
+				</ul>
+				<h2>Lightning Talks</h2>
+				<ul>
+					<li><a href="LightningTalk1.pdf"><i>Towards Efficient and Secure UDF Execution with BabelfishLib</i> by <i>Philipp Grulich, Technische Universität Berlin</i> </a></li>
+					<li><a href="LightningTalk2.pdf"><i>Composable Gateway for Databases</i> by <i>Aditya Jalan, Meta</i> </a></li>
+					<li><a href="LightningTalk3.pdf"><i>Polygraph - An Arrow Format for Large Apache Calcite Query Plans and Multi-Language Data Systems</i> by <i>Adam Kennedy, Voltron Data</i> </a></li>
+					<li><a href="LightningTalk4.pdf"><i>Technics in Accelerating Query Processing on GPU</i> by <i>Jimmy Lu, Meta</i> </a></li>
+					<li><a href="LightningTalk5.pdf"><i>Using Multiple Composable, Hardware-Accelerate Executors</i> by <i>Felipe Aramburu, Voltron Data Inc.</i> </a></li>
+					<li><a href="LightningTalk6.pdf"><i>The Case for Decoupled Transaction Managers</i> by <i>Hiroyuki Yamada, Scalar, Inc.</i> </a></li>
+				</ul>
 				<div class="table-responsive">
 					<center>
 						<table class="table table-borderless">
